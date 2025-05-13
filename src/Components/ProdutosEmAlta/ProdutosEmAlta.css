@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#ProdutosEmAlta{
+  background-color: #f9f8fe;
+  height: 140vh;
+}
+
+#ProdutosEmAltaTop{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 55vw;
+}
+#ProdutosEmAltaTopo{
+  color: #474747;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+#VerTodos a{
+  text-decoration: none;
+  color: #c92071;
+  font-size: small;
+
+}
+
+#TenisPreco{
+  margin-left:2vw;
+  margin-top: -1vh;
+  
+}
+#TenisImagem{
+  background-color: white;
+  width: 20vw;
+  margin-top: 4vh;
+
+}
+
+#TenisCategoria{
+  color:#8f8f8f;
+  font-weight: bold;
+  font-size:small;
+  margin-top: 2vh;
+}
+
+#TenisDescricao{
+  color: #474747;
+  margin-top: -2vh;
+  font-size: 24px;
+}
+
+#TenisPrecoNovo{
+  font-size:24px;
+  margin-top: -2vh;
+  
+}
+#TenisPrecoNovo s{
+  color: #8f8f8f;
+}
+
+#TenisPrecoNovo span{
+  font-weight: bold;
+}
+
+#ProdutosEmAltaLinhaUm{
+  display: flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  margin-right: 2vw;
+}
+
+#ProdutosEmAltaLinhaDois{
+  display: flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  margin-right: 2vw;
+}

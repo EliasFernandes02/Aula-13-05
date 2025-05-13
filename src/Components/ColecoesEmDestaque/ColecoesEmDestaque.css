@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#colecoes-em-destaque{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+    
+    padding: 60px;
+    position: relative;
+    
+    
+}
+
+
+#colecoes-em-destaque-title{
+    margin-top: 10vh;
+    font-size: 28px;
+    margin-left: 16vw;
+}
+
+
+
+#colecoesGroup{
+    font-size: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15vh;
+    color: #474747;
+    font-weight: bolder;
+}
+    
+
+#LastImg{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.divs button{
+    
+    background-color: rgb(255, 255, 255);
+    border: none;
+    height: 50px;
+    width: 120px;
+    color: #c92071;
+    border-radius: 5px;
+    font-size: larger;
+    margin-left: 30px;
+    margin-top: 40px;
+    font-weight: bolder;
+   overflow: unset;
+}
+
+.divs{
+    background-color:#d8e3f2; 
+    border-radius: 5px;
+    padding: 0px;
+    width: 300px;
+    height: 330px;
+   
+    
+
+}
+
+
+
+
+.divs img{
+   
+    
+    height: 200px;
+    width: 200px;
+    margin-left: 100px;
+    margin-top: -134px;
+    
+    
+ 
+   
+    
+   
+}
+
+
+
+
+.divs p{
+    background-color: #e7ff86;
+    width: 85px;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-weight: bolder;
+    text-align: center;
+    
+
+}
+
+.divs h1{
+    margin-left: 30px;
+    font-weight: bolder;
+
+
+}

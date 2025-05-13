@@ -1,0 +1,72 @@
+#container{
+    height: 90vh;
+    padding-top: 8vw;
+    padding-left: 5vw;
+    background-color: #F5F5F5;
+}
+
+.c-item{
+    width: 90vw;
+    height: 60vh;
+}
+
+#ofertas h6{
+    color: #F6AA1C;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+}
+
+#ofertas h1{
+    width: 44vw;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 66px;
+    letter-spacing: 1px;
+}
+
+#ofertas p{
+    width: 36vw;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0.75px;
+}
+
+#ofertas button{
+    color:#F5F5F5;
+    background-color: #C92071;
+
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: 0.75px;
+
+    border: none;
+    border-radius: 8px;
+
+    width: 17vw;
+    height: 8vh;
+}
+
+#whitesneakers img{
+    width: 55vw;
+    position: relative;
+    left: 400px;
+    bottom: 425px;
+}
+
+#ornament img{
+    width: 10vw;
+    position: relative;
+    left: 1010px;
+    bottom: 920px;
+}
+
+.carousel-indicators [data-bs-target]
+{
+    background-color: #C92071;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}

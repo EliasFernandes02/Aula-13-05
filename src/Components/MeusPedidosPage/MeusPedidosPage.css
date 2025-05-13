@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#section-meus-pedidos{
+  
+  background-color: #f9f8fe;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+#meus-pedidos{
+  background-color:#ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60vw;
+  height: 83vh;
+  background-color: white;
+  margin-top: -165vh;
+  margin-left: 25vw;
+  border-radius: 5px;
+
+
+}
+
+#meus-pedidos-titulo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 50vw;
+  height: 5vh;
+  margin-bottom: -1vh;
+}
+
+.MeusPedidosTittle{
+  color: #474747;
+  font-weight: bold;
+  font-size: 14px;
+ 
+}
+
+.MeuStatus{
+  color: #474747;
+  font-size: 14px;
+  font-weight: lighter;
+  margin-left: 40vw;
+}
+
+#meus-pedidos-itens{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 50vw;
+  height: 9vh;
+  margin-left: -4vw;
+  
+}
+
+#imagem-meus-pedidos img{
+  width: 6vw;
+  height: 10vh;
+  border-radius: 5px;
+}
+
+#itemNumberEmTransito{
+  margin-left: -10vw;
+}
+
+#itemNumberFinalizado{
+  margin-left: -15vw;
+}
+
+#itemNumberCancelado{
+  margin-left: -15vw;
+}
+
+.linhaMeusPedidos{
+  width: 54vw;
+}
+
+.NumeroPedido{
+  color: #8f8f8f;
+  font-size: 10px;
+}
+
+.NomeItem{
+  color: #1f1f1f;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: -2vh;
+}
+
+.StatusEmTransito{
+  color: #f6aa1c;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: -3vw;
+}
+ 
+.StatusFinalizado{
+  color: #8F8F8F;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: -3vw;
+}
+
+.StatusCancelado{
+  color: #EE4266;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: -3vw;
+}

@@ -1,0 +1,95 @@
+#ProdutosRel{
+    margin: 20px 75px;
+    /* background-color: #c9207225; */
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+#ProdutosRelTitleLine {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+
+#ProdutosRelTitle {
+    margin: 35px 0px 15px 0px;
+    font-size: 0.9em;
+
+
+}
+
+#VerTodosLink {
+    color: #c92071;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+#VerTodosLink a {
+    white-space: nowrap;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    color: #c92071;
+}
+
+#SetaProdutosRel {
+    width: 16px;
+    height: 16px;
+}
+
+#ShoesBoxRel {
+    /* background-color: #c92071; */
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    
+}
+
+#ImgPdtRel{
+    /* height: 150px; */
+    width: 150px;
+    height: auto;
+    display: flex;
+    padding-bottom: 20px;
+    flex-direction: column;
+    box-shadow: 5px 5px 15px 1px #0000002f;
+    cursor: pointer;
+    transition: 300ms ease;
+    border-radius: 5px;
+    background-color: white;
+    position: relative;
+}
+
+#ImgPdtRel:hover{
+    transform: scale(1.2);
+    transition: 300ms ease;
+    outline: solid 1px #c92071;
+    /* background-color: white; */
+}
+
+#PromoPDCRel{
+    position: absolute;
+    z-index: 1;
+    background: #e7ff86;
+    margin: 10px 60px 0px 10px;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 0.8em;
+    font-weight: bold;
+    height: 4.5vh;
+    
+}
+
+#PriceNameImgPDT {
+    font-size: 0.8em;
+    margin-top: 25px;
+}

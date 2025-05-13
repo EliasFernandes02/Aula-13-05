@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#ContainerMenuLateral{
+   background-color: #f8f8f8;
+   height: 600px;
+   padding-top: 60px;
+   
+}
+
+
+
+.MenuLateral{
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+    margin-left: 100px;
+    margin-top: 65px;
+    background-color: #ffffff;
+    width: 260px;
+    height: 250px;
+    padding-left: 15px;
+    padding-top: 10px;
+    border-radius: 5px;
+    
+   
+}
+
+.MenuLateral hr{
+    width: 230px
+   
+}
+
+.MenuLateral a{
+    text-decoration: none;
+    font-size: 15px;
+    
+}
+
+.MenuLateral a:hover{
+    color: #c92071;
+    
+}

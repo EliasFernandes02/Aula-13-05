@@ -1,0 +1,17 @@
+#form-white{
+    height:60vh ;
+    width: 30vw;
+    background-color: white;
+    border-radius: 5px;
+}
+#acessar{
+    margin-top: 3vh;
+}    
+#form-inputs input{
+    height: 8vh;
+    
+}
+#form-inputs button{
+    height: 8vh;
+    width: 25.7vw;
+}

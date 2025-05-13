@@ -1,0 +1,54 @@
+
+#container-footer{
+    background-color: #1F1F1F;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#logo img{
+    width: 15vw;
+    margin-top: 3vw;
+}
+
+#primary-section p{
+    color: #FFFFFF;
+    letter-spacing: 0%;
+    line-height: 26px;
+    width: 25vw;
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
+}
+
+#social-network img{
+    width: 8vw;
+}
+
+#sections h6{
+    color: #FFFFFF;
+    font-size: 17.5px;
+    margin-top: 2.5vw;
+    margin-bottom: 2vw;
+}
+
+#sections li{
+    color: #FFFFFF;
+    list-style-type: none;
+}
+
+#sections ul{
+    padding-left: 0;
+}
+
+#adress ul{
+    width: 16vw;
+}
+
+#secure{
+    text-align: center;
+}
+
+#secure img{
+    margin-bottom: 1.5vw;
+}
+
